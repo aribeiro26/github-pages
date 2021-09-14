@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicons/favicon.ico" type="image/x-icon">
+    <title>Luz Ingá</title>
+</head>
+<body>
+    <h1>Luz Ingá</h1>
+    <h2>Bem vindos</h2>
+    <p class="msg-boas-vindas">Aproveitem os melhores preços do brasil em lampadas solares</p>
+
+    <h2>Produtos em Promoção</h2>
+    <table class="tabelaP" border="2">
+        <tbody>
+            <tr>
+                <th class = "cabecalho">Solar light disponível</th>
+            </tr>
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Imagem</th>
+            </tr>
+            <tr>
+                <td>2536</td>
+                <td>Solar Light 30w</td>
+                <td>
+                    <figure class="solar30w">
+                        <img src="https://images.pexels.com/photos/4197693/pexels-photo-4197693.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Lampada 30w">
+                    </figure>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>2537</td>
+                <td>Solar Light 40w</td>
+                <td>
+                    <figure class="solar40w">                    
+                        <img src="https://images.pexels.com/photos/4197693/pexels-photo-4197693.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Lampada 40w">
+                    </figure>
+                </td>
+            </tr>
+            <tr>
+                <td>2538</td>
+                <td>Solar Light 50w</td>
+                <td>
+                    <figure class="solar50w">
+                        <img src="https://images.pexels.com/photos/4197693/pexels-photo-4197693.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Lampada 50w">
+                    </figure>
+                
+                </td>
+            </tr>
+            <tr>
+                <td>2539</td>
+                <td>Solar Light 60w</td>
+                <td>
+                    <figure class="solar60w">
+                        <img src="https://images.pexels.com/photos/4197693/pexels-photo-4197693.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Lampada 60w">
+                    </figure>
+                </td>
+            </tr>            
+        </tbody>
+
+    </table>
+    <section class="Content">
+        <div class="contato">
+            <h3>Formulário de contato</h3>
+            <form class="form" method="POST" action="./email.php">
+                <input class="field" name="name" placeholder="Nome">
+                <input class="field" name="email" placeholder="E-mail">
+                <textarea class="field" name="message" id="msg" placeholder="Digite sua mensagem aqui"></textarea>
+                <input class="field" type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <style type="text/css">
+    
+        body{font-family: Arial, Helvetica, sans-serif;}
+        .content{display: flex;justify-content: center;}
+        .contato{width: 100%;max-width: 500px;}
+        .form{display: flex;flex-direction: column;}
+        .field{padding: 10px;margin-bottom: 15px;border: 1px solid white;border-radius: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 16px}
+        .textarea{height: 150px;}
+        table{border: 2;border: black;}
+
+        thead{color:black}
+        tbody{color:black}
+        tfoot{color: blue;}
+        p{
+            text-align: justify;
+            text-indent: 50px;            
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }            
+    </style>    
+</body>
+</html>
